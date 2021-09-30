@@ -1,0 +1,13 @@
+6
+type
+type int
+TypeError
+can begin with letter, can't be a Python reserved word, can begin with an underscore
+student_id, a_list, class_name
+True False
+def if
+def () :
+int float str str list
+120 list tuple '3.14' 'CS20' TypeError
+cs20_class student_name volume_of_can class_average_total year_2021
+language = "Python" def @021
