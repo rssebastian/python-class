@@ -18,7 +18,7 @@
 def get_phrase_if_divisible(phrase1, phrase2, test_integer, denominator1=1, denominator2=1):
     """Returns a phrase depending on the test_integer's divisibility by the given denominators"""
     if (test_integer % denominator1 == 0 and test_integer % denominator2 == 0):
-        return phrase1 + phrases2
+        return phrase1 + phrase2
     elif (test_integer % denominator1 == 0):
         return phrase1
     elif (test_integer % denominator2 == 0):
