@@ -26,5 +26,5 @@ def main():
     print(get_product_via_sum(number_1, number_2))
 
 
-if ___name__ == "__main__":
+if __name__ == "__main__":
     main()
