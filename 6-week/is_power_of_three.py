@@ -8,6 +8,10 @@
 # Write your function and write the function docstring
 # Test your function in your main program for the numbers 27, 177147 and 4782976
 
+# Check if the number is divisible by 3 first
+# Then check if the last digit is 3, 9, 7, or 1
+# Each power of 3 will have their last digits cycle between these 4
+# If both conditions pass, return True, and False if not
 def is_power_of_three(n):
     """Returns if n is a power of 3"""
     return True if (n % 3 == 0) and (n % 10 == 3 or n % 10 == 9 or n % 10 == 7 or n % 10 == 1) else False
