@@ -5,22 +5,27 @@
 # Given a paragraph of text, write a python function named extract_numbers to return a list of numbers (must be numbers ie not in string format) in the phrase. For example, given the paragraph, "Steph Curry recorded 50 points and 10 assists for the first time in his career, overtaking Wilt Chamberlain as the oldest player in NBA history to do so, as the Golden State Warriors continued their blistering start to the season with a 127 to 113 victory over the Atlanta Hawks on Monday." your function must return [50.0, 10.0, 127.0, 113.0]. Test your function for above paragraph in your main program.
 
 def get_y(x):
+    """Returns the list of y coordinates according to the equation"""
     return [el ** 2 + 2 * el + 3 for el in x]
 
 
 def get_ord_list(phrase):
+    """Returns the list of ord values of the letters in teh phrase"""
     return [ord(a_word) for a_word in phrase]
 
 
 def multiply_list(a_list, multiplier):
+    """Returns the list of repeated or multiplied values of a list by the multiplier"""
     return [el * multiplier for el in a_list]
 
 
 def get_even_indexed_list(a_list):
+    """Returns the list with even indexed items of a list"""
     return [el for el in a_list if a_list.index(el) % 2 == 0]
 
 
 def extract_numbers(paragraph):
+    """Returns the list of numbers in a paragraph"""
     return [float(el) for el in paragraph.split() if str.isnumeric(el)]
 
 
