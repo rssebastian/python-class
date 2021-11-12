@@ -11,7 +11,8 @@ def get_average_revenue(sales, unit_price):
 def main():
     sales = [[16, 24, 12, 4, 14, 6, 20], [20, 22, 10, 0, 16, 26, 12],
              [28, 24, 8, 0, 20, 2, 4], [12, 2, 16, 14, 28, 8, 18]]
-    print(get_average_revenue(sales))
+    unit_price = 1025.00
+    print(get_average_revenue(sales, unit_price))
 
 
 if __name__ == "__main__":
